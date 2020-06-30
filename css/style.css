@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+:root{
+	--rosa:#ffccbb;
+	--fondop:#ff6c5c;
+	--icon-menu:#fff;
+	--text-menu:#fff;
+	--bgmenu:#ff6c5c;
+	--f7-list-border-color: none;
+	--rojo:#d83c2d;
+	--gris:#b0b6c2;
+	--carbon:#3b3c40;
+}
+
+
+.panel-left{
+	background-color: var(--fondop);
+	color:#fff;
+}
+
+.list-menu .item-media span{
+	color: var(--icon-menu);
+}
+
+.list-menu .item-inner{
+	color: var(--text-menu);
+}
+.list-menu{
+	background-color: var(--bgmenu)!important;
+	font-size: 14px;
+}
+.list-menu .item-inner::before{
+	color: rgba(255,255,255,0.50) !important;
+}
+.list-menu .item-inner::after{
+	background-color: transparent!important;
+}
+
+h1, h2, h3 ,h4{
+	margin: 2px, 0;
+}
+
+.saludo{
+	color: var(--rojo);
+}
+
+.saludo h2{
+	font-size: 24px;
+}
+
+.saludo h3{
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.block-title{
+	color: #000;
+	font-weight: 600;
+}
+.img-fluid{
+	max-width: 100%;
+}
+.cardflor .card-header{
+	padding: 0;
+}
+
+.cardflor .card-header img{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.categorias .card{
+	background-color: var(--rojo);
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.categorias .card-content img{
+	width: 100%;
+}
+
+.categorias h3{
+	margin-top: 5%;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.img-perfil{
+	border-radius: 100%;
+}
+
+
+.bg-flor{
+	color: var(--rojo);
+}
+
+.paquete .card{
+	background-color: var(--rosa);
+	color: var(--rojo);
+	padding: 5px 10px;
+}
+
+h5{
+	color: var(--rojo);
+	font-size: 25px;
+}
+
+H6{
+	font-size: 18px;
+}
+
+.yeah{
+	text-align: right;
+}
+
+.perfil h5{
+	text-align: center;
+	margin-top: 25px;
+}
+.perfil h4{
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+
+
+
+
